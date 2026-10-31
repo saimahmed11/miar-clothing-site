@@ -1,0 +1,138 @@
+export interface CityDeliveryInfo {
+  nameEn: string;
+  nameUr: string;
+  province: string;
+  estimateEn: string;
+  estimateUr: string;
+  isKarachi: boolean;
+  expressAvailable: boolean;
+}
+
+export const PAKISTAN_CITIES: CityDeliveryInfo[] = [
+  {
+    nameEn: 'Karachi',
+    nameUr: 'کراچی',
+    province: 'Sindh',
+    estimateEn: 'Same-day or Next-Day (24 hours)',
+    estimateUr: 'اسی دن یا اگلے دن (24 گھنٹے میں ترسیل)',
+    isKarachi: true,
+    expressAvailable: true,
+  },
+  {
+    nameEn: 'Lahore',
+    nameUr: 'لاہور',
+    province: 'Punjab',
+    estimateEn: '2 to 3 Business Days via Trax/TCS Express',
+    estimateUr: '2 سے 3 کاروباری دن بذریعہ ٹریکس / ٹی سی ایس',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Islamabad',
+    nameUr: 'اسلام آباد',
+    province: 'Federal',
+    estimateEn: '2 to 3 Business Days via Trax/TCS Express',
+    estimateUr: '2 سے 3 کاروباری دن بذریعہ ٹریکس / ٹی سی ایس',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Rawalpindi',
+    nameUr: 'راولپنڈی',
+    province: 'Punjab',
+    estimateEn: '2 to 3 Business Days',
+    estimateUr: '2 سے 3 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Hyderabad',
+    nameUr: 'حیدرآباد',
+    province: 'Sindh',
+    estimateEn: '1 to 2 Business Days',
+    estimateUr: '1 سے 2 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Faisalabad',
+    nameUr: 'فیصل آباد',
+    province: 'Punjab',
+    estimateEn: '2 to 3 Business Days',
+    estimateUr: '2 سے 3 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Multan',
+    nameUr: 'ملتان',
+    province: 'Punjab',
+    estimateEn: '2 to 4 Business Days',
+    estimateUr: '2 سے 4 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Peshawar',
+    nameUr: 'پشاور',
+    province: 'Khyber Pakhtunkhwa',
+    estimateEn: '3 to 4 Business Days',
+    estimateUr: '3 سے 4 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Quetta',
+    nameUr: 'کوئٹہ',
+    province: 'Balochistan',
+    estimateEn: '3 to 5 Business Days',
+    estimateUr: '3 سے 5 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Sialkot',
+    nameUr: 'سیالکوٹ',
+    province: 'Punjab',
+    estimateEn: '2 to 3 Business Days',
+    estimateUr: '2 سے 3 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Gujranwala',
+    nameUr: 'گوجرانوالہ',
+    province: 'Punjab',
+    estimateEn: '2 to 3 Business Days',
+    estimateUr: '2 سے 3 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Sukkur',
+    nameUr: 'سکھر',
+    province: 'Sindh',
+    estimateEn: '2 to 3 Business Days',
+    estimateUr: '2 سے 3 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Larkana',
+    nameUr: 'لاڑکانہ',
+    province: 'Sindh',
+    estimateEn: '2 to 3 Business Days',
+    estimateUr: '2 سے 3 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+  {
+    nameEn: 'Abbottabad',
+    nameUr: 'ایبٹ آباد',
+    province: 'Khyber Pakhtunkhwa',
+    estimateEn: '3 to 4 Business Days',
+    estimateUr: '3 سے 4 کاروباری دن',
+    isKarachi: false,
+    expressAvailable: false,
+  },
+];

@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-sand: #F4EDE2;
+    --color-sand-light: #FAF6F0;
+    --color-sand-muted: #E8DFD0;
+    --color-ink: #14110F;
+    --color-ink-muted: #66605B;
+    --color-teal: #0E5A6B;
+    --color-teal-dark: #083742;
+    --color-teal-light: #18778C;
+    --color-marigold: #D99A2B;
+    --color-clay: #B5543A;
+  }
+
+  body {
+    background-color: var(--color-sand);
+    color: var(--color-ink);
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  /* Specific typography utility for Nastaliq and Naskh */
+  .font-nastaliq {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    line-height: 2.1;
+  }
+
+  .font-naskh {
+    font-family: 'Noto Naskh Arabic', sans-serif;
+  }
+
+  .font-garamond {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Nastaliq SVG Stroke animation */
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0.2;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+.animate-draw-stroke {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawStroke 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-draw-stroke {
+    stroke-dashoffset: 0;
+    animation: none;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EDE2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5C8B5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8A892;
+}

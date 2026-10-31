@@ -1,0 +1,6 @@
+{
+  "name": "Miar (میار) — Karachi Luxury Apparel",
+  "description": "Karachi ka andaaz. Miar (میار) is an authentic luxury ready-to-wear and unstitched fashion house rooted in Karachi coastal elegance with Urdu-first identity, instant WhatsApp ordering, and tracked Pakistan-wide delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
