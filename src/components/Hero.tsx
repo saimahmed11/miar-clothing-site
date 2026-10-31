@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onExploreLookbook }) =>
       {/* Background Campaign Photography with measured gradient scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_karachi_coastal_1793441562807.jpg"
+          src="/images/hero_karachi_coastal_1793441562807.jpg"
           alt="Miar Clifton Beach Karachi Luxury Apparel Campaign"
           className="w-full h-full object-cover object-center filter brightness-[0.88] contrast-[1.04]"
           referrerPolicy="no-referrer"

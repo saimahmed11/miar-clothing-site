@@ -18,7 +18,7 @@ export const KarachiEditorialBand: React.FC<KarachiEditorialBandProps> = ({
           {/* Editorial Visual: Saddar heritage architecture */}
           <div className="lg:col-span-7 relative rounded-xl overflow-hidden bg-[#E8DFD0] aspect-[16/10] shadow-md group">
             <img
-              src="/src/assets/images/karachi_editorial_story_1793441563481.jpg"
+              src="/images/karachi_editorial_story_1793441563481.jpg"
               alt="Old Karachi Saddar Colonial Stone Architecture at Golden Dusk"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-103"
               referrerPolicy="no-referrer"

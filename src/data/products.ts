@@ -20,9 +20,9 @@ export const PRODUCTS: Product[] = [
     colorUr: 'فیروزی اور ریتلا ہاتھی دانت',
     colorHex: '#0E5A6B',
     images: [
-      '/src/assets/images/hero_karachi_coastal_1793441562807.jpg',
-      '/src/assets/images/product_unstitched_festive_lawn_1793441562659.jpg',
-      '/src/assets/images/karachi_editorial_story_1793441563481.jpg',
+      '/images/hero_karachi_coastal_1793441562807.jpg',
+      '/images/product_unstitched_festive_lawn_1793441562659.jpg',
+      '/images/karachi_editorial_story_1793441563481.jpg',
     ],
     sizes: [
       { size: 'XS', stock: 4 },
@@ -100,9 +100,9 @@ export const PRODUCTS: Product[] = [
     colorUr: 'مٹیالا گیروا اور گہرا زرد',
     colorHex: '#B5543A',
     images: [
-      '/src/assets/images/product_stitched_pret_saddar_1793441562289.jpg',
-      '/src/assets/images/karachi_editorial_story_1793441563481.jpg',
-      '/src/assets/images/hero_karachi_coastal_1793441562807.jpg',
+      '/images/product_stitched_pret_saddar_1793441562289.jpg',
+      '/images/karachi_editorial_story_1793441563481.jpg',
+      '/images/hero_karachi_coastal_1793441562807.jpg',
     ],
     sizes: [
       { size: 'XS', stock: 1 },
@@ -168,9 +168,9 @@ export const PRODUCTS: Product[] = [
     colorUr: 'زمردی بحری نیلا اور سنہری ہاتھی دانت',
     colorHex: '#0E5A6B',
     images: [
-      '/src/assets/images/product_unstitched_festive_lawn_1793441562659.jpg',
-      '/src/assets/images/hero_karachi_coastal_1793441562807.jpg',
-      '/src/assets/images/karachi_editorial_story_1793441563481.jpg',
+      '/images/product_unstitched_festive_lawn_1793441562659.jpg',
+      '/images/hero_karachi_coastal_1793441562807.jpg',
+      '/images/karachi_editorial_story_1793441563481.jpg',
     ],
     sizes: [
       { size: '3-Piece Full Suit', stock: 18 },
@@ -235,9 +235,9 @@ export const PRODUCTS: Product[] = [
     colorUr: 'ریتلا سفید اور فیروزی باریکی',
     colorHex: '#F4EDE2',
     images: [
-      '/src/assets/images/product_mens_kurta_linen_1793441563559.jpg',
-      '/src/assets/images/karachi_editorial_story_1793441563481.jpg',
-      '/src/assets/images/hero_karachi_coastal_1793441562807.jpg',
+      '/images/product_mens_kurta_linen_1793441563559.jpg',
+      '/images/karachi_editorial_story_1793441563481.jpg',
+      '/images/hero_karachi_coastal_1793441562807.jpg',
     ],
     sizes: [
       { size: 'S', stock: 6 },
@@ -298,9 +298,9 @@ export const PRODUCTS: Product[] = [
     colorUr: 'گیندا پیلا اور ریتلا بادامی',
     colorHex: '#D99A2B',
     images: [
-      '/src/assets/images/product_stitched_pret_saddar_1793441562289.jpg',
-      '/src/assets/images/hero_karachi_coastal_1793441562807.jpg',
-      '/src/assets/images/product_unstitched_festive_lawn_1793441562659.jpg',
+      '/images/product_stitched_pret_saddar_1793441562289.jpg',
+      '/images/hero_karachi_coastal_1793441562807.jpg',
+      '/images/product_unstitched_festive_lawn_1793441562659.jpg',
     ],
     sizes: [
       { size: 'XS', stock: 2 },
@@ -348,8 +348,8 @@ export const PRODUCTS: Product[] = [
     colorUr: 'دھندلا سمندری نیلا اور ریت',
     colorHex: '#0E5A6B',
     images: [
-      '/src/assets/images/product_unstitched_festive_lawn_1793441562659.jpg',
-      '/src/assets/images/product_stitched_pret_saddar_1793441562289.jpg',
+      '/images/product_unstitched_festive_lawn_1793441562659.jpg',
+      '/images/product_stitched_pret_saddar_1793441562289.jpg',
     ],
     sizes: [
       { size: '2-Piece (Shirt + Trouser)', stock: 24 },
